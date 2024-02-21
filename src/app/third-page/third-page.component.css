@@ -1,0 +1,36 @@
+/* Apply styling to the container */
+div {
+  width: 400px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  text-align: center;
+}
+
+/* Style the heading */
+h2 {
+  color: #333;
+}
+
+/* Style the paragraph elements */
+p {
+  margin: 10px 0;
+}
+
+/* Style the buttons */
+button {
+  padding: 10px 20px;
+  margin: 5px;
+  cursor: pointer;
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+/* Style the 'Cancel' button differently */

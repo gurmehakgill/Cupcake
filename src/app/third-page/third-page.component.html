@@ -1,0 +1,12 @@
+<div>
+  <h2>Order Summary</h2>
+  <p>Quantity: {{ quantity }}</p>
+  <p>Subtotal: ${{ quantity * 2 }}</p>
+
+
+  <p>Chosen Flavor: {{ selectedFlavor }}</p>
+
+  <button (click)="goBack()">Back</button>
+  <button (click)="cancel()">Cancel</button>
+  <button (click)="sendOrder()">Send Order</button>
+</div>

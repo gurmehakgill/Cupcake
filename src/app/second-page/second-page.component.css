@@ -1,0 +1,45 @@
+.container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.flavor-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.flavor-buttons button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  margin: 5px;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.flavor-buttons button:hover {
+  background-color: #45a049;
+}
+
+.navigation-buttons {
+  display: flex;
+  justify-content: center;
+}
+
+.navigation-buttons button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  margin: 5px;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.navigation-buttons button:hover {
+  background-color: #45a049;
+}
+

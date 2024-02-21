@@ -1,0 +1,19 @@
+<div class="container">
+  <h2>Select Cupcake Option</h2>
+
+
+  <div class="flavor-buttons">
+    <button (click)="selectFlavor('vanilla')">Vanilla</button>
+    <button (click)="selectFlavor('chocolate')">Chocolate</button>
+    <button (click)="selectFlavor('strawberry')">Strawberry</button>
+    <button (click)="selectFlavor('lemon')">Lemon</button>
+    <button (click)="selectFlavor('red-velvet')">Red Velvet</button>
+  </div>
+
+
+  <div class="navigation-buttons">
+    <button class="back" (click)="goBack()">Back</button>
+    <button class="cancel" (click)="cancel()">Cancel</button>
+    <button class="next" (click)="next()">Next</button>
+  </div>
+</div>
